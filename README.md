@@ -31,7 +31,7 @@ While this project was designed with a fixed-size "mobile frame", the layout use
 
 Here’s what the project looks like:
 
-![Mindful Moments Tracker Screenshot](./counting-app/images/screenshot.jpg)
+![Mindful Moments Tracker Screenshot](./images/screenshot.jpg)
 
 ### 🚀 Live Demo
 
