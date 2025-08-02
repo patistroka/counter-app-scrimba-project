@@ -35,7 +35,7 @@ Here’s what the project looks like:
 
 ### 🚀 Live Demo
 
-[Click here to try the project]()
+[Click here to try the project](https://counter-app-scrimba-project-pstroka.netlify.app/)
 
 
 **Built with care and curiosity — one breath at a time.**
