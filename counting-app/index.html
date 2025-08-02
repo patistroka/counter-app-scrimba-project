@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mindful Moments Tracker</title>
+  </head>
+
+  <body>
+    <main class="phone-frame">
+      <img
+        src="images/meditation-img.png"
+        alt="Minimalist black and white illustration of a woman meditating"
+        class="phone-img"
+      />
+      <h1>Mindful Moments Tracker</h1>
+      <p>How many mindful breaths have you taken today?</p>
+      <output id="count-el">0</output>
+      <section class="btn-group">
+        <button id="increment-btn" onclick="increment()">Breath In</button>
+        <button id="save-btn" onclick="save()">Save</button>
+      </section>
+      <p id="save-el">Your Journey So Far:</p>
+      <section class="clear-btn-group">
+        <button id="undo-btn" onclick="undo()">Undo</button>
+        <button id="clear-all" onclick="clearAll()">Wipe</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
